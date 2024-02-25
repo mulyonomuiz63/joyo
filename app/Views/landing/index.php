@@ -457,7 +457,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>PT Cipto Langgeng Joyo</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Cipto Langgeng Joyo</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- Nama yang desain -->
