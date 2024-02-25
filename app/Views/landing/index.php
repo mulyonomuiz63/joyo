@@ -26,14 +26,6 @@
 
     <!-- Template Main CSS File -->
     <link href="<?php echo base_url("assets/landing/css/style.css") ?>" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: FlexStart
-  * Updated: Jan 29 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -49,12 +41,12 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+                    <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#katalog">Katalog</a></li>
+                    <li><a class="nav-link scrollto" href="#produk">Produk</a></li>
+                    <li><a class="nav-link scrollto" href="#patner">Patner</a></li>
+                    <li><a class="nav-link scrollto" href="#kontak">Kontak</a></li>
+                    <!-- <li><a class="getstarted scrollto" href="#about">Login</a></li> -->
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -63,17 +55,17 @@
     </header><!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero d-flex align-items-center">
+    <section id="home" class="hero d-flex align-items-center">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-                    <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2>
+                    <h1 data-aos="fade-up">PT CIPTO LANGGENG JOYO</h1>
+                    <h2 data-aos="fade-up" data-aos-delay="400">Merupakan perusahaan yang bergerak di bidang pertanian yang memproduksi pupuk majemuk seperti NPK dan mendistribusikan berbagai jenis pupuk unggulan di indonesia. lokasi pembuatan kami di daerah khusus, Mojokerto, provinsi jawa timur indonesia</h2>
                     <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">
-                            <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>Get Started</span>
+                            <a href="#katalog" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                                <span>Lanjut</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -88,236 +80,149 @@
     </section><!-- End Hero -->
 
     <main id="main">
-        <!-- ======= About Section ======= -->
-        <section id="about" class="about">
-
-            <div class="container" data-aos="fade-up">
-                <div class="row gx-0">
-
-                    <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                        <div class="content">
-                            <h3>Who We Are</h3>
-                            <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
-                            <p>
-                                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
-                            </p>
-                            <div class="text-center text-lg-start">
-                                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                    <span>Read More</span>
-                                    <i class="bi bi-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                        <img src="<?php echo base_url("images/produk/visi.png") ?>" class="img-fluid" alt="">
-                    </div>
-
-                </div>
-            </div>
-
-        </section><!-- End About Section -->
-
         <!-- ======= Values Section ======= -->
-        <section id="values" class="values">
-
+        <section id="katalog" class="values">
+            <?php
+            $dataKatalog = [
+                [
+                    'gambar_katalog'     => 'images/produk/katalog 1.png',
+                    'judul'              => 'PUPUK UNGGULAN JATI WARINGI',
+                    'deskripsi'          => ''
+                ],
+                [
+                    'gambar_katalog'     => 'images/produk/katalog 2.png',
+                    'judul'              => 'PUPUK UNGGULAN JATI WARINGI',
+                    'deskripsi'          => ''
+                ],
+                [
+                    'gambar_katalog'     => 'images/produk/katalog 3.png',
+                    'judul'              => 'PUPUK UNGGULAN JATI WARINGI',
+                    'deskripsi'          => ''
+                ],
+            ]
+            ?>
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <h2>Our Values</h2>
-                    <p>Odit est perspiciatis laborum et dicta</p>
+                    <p>Katalog</p>
                 </header>
 
                 <div class="row">
-
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="box">
-                            <img src="<?php echo base_url("assets/landing/img/values-1.png") ?>" class="img-fluid" alt="">
-                            <h3>Ad cupiditate sed est odio</h3>
-                            <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+                    <?php foreach ($dataKatalog as $rows) : ?>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="box">
+                                <img src="<?php echo base_url($rows['gambar_katalog']) ?>" class="img-fluid" alt="">
+                                <h3><?= $rows['judul']; ?></h3>
+                                <p><?= $rows['deskripsi']; ?></p>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
-                        <div class="box">
-                            <img src="<?php echo base_url("assets/landing/img/values-2.png") ?>" class="img-fluid" alt="">
-                            <h3>Voluptatem voluptatum alias</h3>
-                            <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
-                        <div class="box">
-                            <img src="<?php echo base_url("assets/landing/img/values-3.png") ?>" class="img-fluid" alt="">
-                            <h3>Fugit cupiditate alias nobis.</h3>
-                            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
-                        </div>
-                    </div>
-
+                    <?php endforeach; ?>
                 </div>
 
             </div>
 
         </section><!-- End Values Section -->
 
-
-
-
-
-
-
-
-
         <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio">
-
+        <section id="produk" class="portfolio">
+            <?php
+            $dataMenu = [
+                [
+                    'menu'      => '.filter-npk',
+                    'nama_menu' => 'PUPUK NPK',
+                ]
+            ];
+            $data = [
+                [
+                    'menu'              => 'filter-npk',
+                    'judul'             => 'PUPUK NPK',
+                    'detail'            => '15-15-15',
+                    'gambar_produk'     => 'images/produk/produk 1.png',
+                ],
+                [
+                    'menu'              => 'filter-npk',
+                    'judul'             => 'PUPUK NPK',
+                    'detail'            => '16-16-16',
+                    'gambar_produk'     => 'images/produk/produk 2.png',
+                    'gambar_produk_detail'     => 'images/produk/produk 2.png',
+                ],
+                [
+                    'menu'              => 'filter-npk',
+                    'judul'             => 'PUPUK NPK',
+                    'detail'            => '12-12-17+2Mg0',
+                    'gambar_produk'     => 'images/produk/produk 3.png',
+                    'gambar_produk_detail'     => 'images/produk/produk 3.png',
+                ],
+                [
+                    'menu'              => 'filter-npk',
+                    'judul'             => 'PUPUK NPK',
+                    'detail'            => '12-12-17+2Mg0',
+                    'gambar_produk'     => 'images/produk/produk 4.png',
+                ],
+                [
+                    'menu'              => 'filter-npk',
+                    'judul'             => 'PUPUK NPK',
+                    'detail'            => '12-12-17+2Mg0',
+                    'gambar_produk'     => 'images/produk/produk 5.png',
+                ],
+                [
+                    'menu'              => 'filter-npk',
+                    'judul'             => 'PUPUK NPK',
+                    'detail'            => '12-12-17+2Mg0',
+                    'gambar_produk'     => 'images/produk/produk 6.png',
+                ],
+                [
+                    'menu'              => 'filter-npk',
+                    'judul'             => 'PUPUK NPK',
+                    'detail'            => '12-12-17+2Mg0',
+                    'gambar_produk'     => 'images/produk/produk 7.png',
+                ],
+                [
+                    'menu'              => 'filter-npk',
+                    'judul'             => 'PUPUK NPK',
+                    'detail'            => '12-12-17+2Mg0',
+                    'gambar_produk'     => 'images/produk/produk 8.png',
+                ],
+                [
+                    'menu'              => 'filter-npk',
+                    'judul'             => 'PUPUK NPK',
+                    'detail'            => '12-12-17+2Mg0',
+                    'gambar_produk'     => 'images/produk/produk 9.png',
+                ]
+            ]
+            ?>
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <h2>Portfolio</h2>
-                    <p>Check our latest work</p>
+                    <p>PRODUK</p>
                 </header>
 
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
+                            <?php foreach ($dataMenu as $rows) : ?>
+                                <li data-filter="<?= $rows['menu']; ?>"><?= $rows['nama_menu']; ?></li>
+                            <?php endforeach; ?>
                         </ul>
                     </div>
                 </div>
 
                 <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="<?php echo base_url("assets/landing/img/portfolio/portfolio-1.jpg") ?>" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>App</p>
-                                <div class="portfolio-links">
-                                    <a href="<?php echo base_url("assets/landing/img/portfolio/portfolio-1.jpg") ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <?php foreach ($data as $rows) : ?>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-npk">
+                            <div class="portfolio-wrap">
+                                <img src="<?php echo base_url($rows['gambar_produk']) ?>" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4><?= $rows['judul']; ?></h4>
+                                    <p><?= $rows['detail']; ?></p>
+                                    <div class="portfolio-links">
+                                        <a href="<?php echo base_url($rows['gambar_produk']) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="<?php echo base_url("assets/landing/img/portfolio/portfolio-2.jpg") ?>" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="<?php echo base_url("assets/landing/img/portfolio/portfolio-2.jpg") ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="<?php echo base_url("assets/landing/img/portfolio/portfolio-3.jpg") ?>" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>App</p>
-                                <div class="portfolio-links">
-                                    <a href="<?php echo base_url("assets/landing/img/portfolio/portfolio-3.jpg") ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="<?php echo base_url("assets/landing/img/portfolio/portfolio-4.jpg") ?>" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="<?php echo base_url("assets/landing/img/portfolio/portfolio-4.jpg") ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="<?php echo base_url("assets/landing/img/portfolio/portfolio-5.jpg") ?>" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 2</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="<?php echo base_url("assets/landing/img/portfolio/portfolio-5.jpg") ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="<?php echo base_url("assets/landing/img/portfolio/portfolio-6.jpg") ?>" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>App</p>
-                                <div class="portfolio-links">
-                                    <a href="<?php echo base_url("assets/landing/img/portfolio/portfolio-6.jpg") ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="<?php echo base_url("assets/landing/img/portfolio/portfolio-7.jpg") ?>" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 1</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="<?php echo base_url("assets/landing/img/portfolio/portfolio-7.jpg") ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="<?php echo base_url("assets/landing/img/portfolio/portfolio-8.jpg") ?>" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 3</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="<?php echo base_url("assets/landing/img/portfolio/portfolio-8.jpg") ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="<?php echo base_url("assets/landing/img/portfolio/portfolio-9.jpg") ?>" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="<?php echo base_url("assets/landing/img/portfolio/portfolio-9.jpg") ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <?php endforeach; ?>
                 </div>
 
             </div>
@@ -325,13 +230,12 @@
         </section><!-- End Portfolio Section -->
 
         <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
+        <section id="testimoni" class="testimonials">
 
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <h2>Testimonials</h2>
-                    <p>What they are saying about us</p>
+                    <p>TESTIMONI</p>
                 </header>
 
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
@@ -343,12 +247,11 @@
                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                                 </div>
                                 <p>
-                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                    Tempat produsen Pupuk NPK Jatiwangi yang terpercaya
                                 </p>
                                 <div class="profile mt-auto">
-                                    <img src="<?php echo base_url("assets/landing/img/testimonials/testimonials-1.jpg") ?>" class="testimonial-img" alt="">
-                                    <h3>Saul Goodman</h3>
-                                    <h4>Ceo &amp; Founder</h4>
+                                    <img src="<?php echo base_url("images/testimoni/mulyono.jpg") ?>" class="testimonial-img" alt="">
+                                    <h3>Mas Yon</h3>
                                 </div>
                             </div>
                         </div><!-- End testimonial item -->
@@ -364,25 +267,42 @@
 
 
         <!-- ======= Clients Section ======= -->
-        <section id="clients" class="clients">
-
+        <section id="patner" class="clients">
+            <?php
+            $dataPart = [
+                [
+                    'gambar'      => 'images/patner/agromax.jpg',
+                ],
+                [
+                    'gambar'      => 'images/patner/gresik.jpg',
+                ],
+                [
+                    'gambar'      => 'images/patner/pupuk indonesia.jpg',
+                ],
+                [
+                    'gambar'      => 'images/patner/pusri.png',
+                ],
+                [
+                    'gambar'      => 'images/patner/surya makmur.png',
+                ],
+                [
+                    'gambar'      => 'images/patner/wirasena.jpg',
+                ]
+            ];
+            ?>
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <h2>Our Clients</h2>
-                    <p>Temporibus omnis officia</p>
+                    <p>PATNER</p>
                 </header>
 
                 <div class="clients-slider swiper">
                     <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="<?php echo base_url("assets/landing/img/clients/client-1.png") ?>" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?php echo base_url("assets/landing/img/clients/client-2.png") ?>" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?php echo base_url("assets/landing/img/clients/client-3.png") ?>" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?php echo base_url("assets/landing/img/clients/client-4.png") ?>" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?php echo base_url("assets/landing/img/clients/client-5.png") ?>" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?php echo base_url("assets/landing/img/clients/client-6.png") ?>" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?php echo base_url("assets/landing/img/clients/client-7.png") ?>" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?php echo base_url("assets/landing/img/clients/client-8.png") ?>" class="img-fluid" alt=""></div>
+                        <?php
+                        foreach ($dataPart as $rows) :
+                        ?>
+                            <div class="swiper-slide"><img src="<?php echo base_url($rows['gambar']) ?>" class="img-fluid" alt=""></div>
+                        <?php endforeach;  ?>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -392,13 +312,12 @@
 
 
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
+        <section id="kontak" class="contact">
 
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <h2>Contact</h2>
-                    <p>Contact Us</p>
+                    <p>KONTAK</p>
                 </header>
 
                 <div class="row gy-4">
@@ -409,29 +328,32 @@
                             <div class="col-md-6">
                                 <div class="info-box">
                                     <i class="bi bi-geo-alt"></i>
-                                    <h3>Address</h3>
-                                    <p>A108 Adam Street,<br>New York, NY 535022</p>
+                                    <h3>Alamat</h3>
+                                    <p>
+                                        JL Raden Wijaya No.4 Gg. Serut RT. 01 <br>
+                                        RW. 01 Dsn. Kemloko, Ds Jotangan,<br>
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="info-box">
                                     <i class="bi bi-telephone"></i>
-                                    <h3>Call Us</h3>
-                                    <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                                    <h3>HP</h3>
+                                    <p>(0321) 6850855<br></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="info-box">
                                     <i class="bi bi-envelope"></i>
-                                    <h3>Email Us</h3>
-                                    <p>info@example.com<br>contact@example.com</p>
+                                    <h3>Email</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="info-box">
                                     <i class="bi bi-clock"></i>
-                                    <h3>Open Hours</h3>
-                                    <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                                    <h3>Jam Oprasional</h3>
+                                    <p>Senin - Minggu<br>24 Jam</p>
                                 </div>
                             </div>
                         </div>
@@ -486,11 +408,11 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-5 col-md-12 footer-info">
-                        <a href="index.html" class="logo d-flex align-items-center">
+                        <a href="" class="logo d-flex align-items-center">
                             <img src="<?php echo base_url("assets/landing/img/logo.png") ?>" alt="">
                             <span>PT Cipto Langgeng Joyo</span>
                         </a>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                        <p>Merupakan perusahaan yang bergerak di bidang pertanian yang memproduksi pupuk majemuk seperti NPK dan mendistribusikan berbagai jenis pupuk unggulan di indonesia.</p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -500,7 +422,7 @@
                     </div>
 
                     <div class="col-lg-2 col-6 footer-links">
-                        <h4>Useful Links</h4>
+                        <h4>MENU</h4>
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
@@ -511,24 +433,20 @@
                     </div>
 
                     <div class="col-lg-2 col-6 footer-links">
-                        <h4>Our Services</h4>
+                        <h4>SERVIS</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">PRODUK NPK</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                        <h4>Contact Us</h4>
+                        <h4>KONTAK</h4>
                         <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
+                            JL Raden Wijaya No.4 Gg. Serut RT. 01 <br>
+                            RW. 01 Dsn. Kemloko, Ds Jotangan,<br>
+                            Kec. Mojosari, Mojokerto, Jawa Timur 61382 <br><br>
+                            <strong>Phone:</strong> (0321) 6850855<br>
+                            <strong>Email:</strong> <br>
                         </p>
 
                     </div>
